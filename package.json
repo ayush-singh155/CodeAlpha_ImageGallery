@@ -1,0 +1,25 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "description": "Built a modern and responsive Image Gallery application featuring category-based filtering, fullscreen image preview (Lightbox), lazy loading, smooth animations, and a user-friendly interface. Developed using HTML, CSS, and JavaScript with a focus on performance and responsive design.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayush-singh155/CodeAlpha_ImageGallery/issues"
+  },
+  "homepage": "https://github.com/ayush-singh155/CodeAlpha_ImageGallery#readme",
+  "dependencies": {
+    "@netlify/database": "^1.1.0",
+    "drizzle-orm": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^1.0.0-beta.22"
+  }
+}
